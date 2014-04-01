@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{B038FCC4-EFED-56EC-EF13-B093141FEFBE}") = "SpaceFerret", "Assembly-CSharp-vs.csproj", "{CAA4A605-A6E1-8282-7244-387701844097}"
 EndProject
+Project("{B038FCC4-EFED-56EC-EF13-B093141FEFBE}") = "SpaceFerret", "Assembly-CSharp-Editor-vs.csproj", "{EFA02990-202B-117A-AAA5-D0CDBCC3825F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{CAA4A605-A6E1-8282-7244-387701844097}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAA4A605-A6E1-8282-7244-387701844097}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAA4A605-A6E1-8282-7244-387701844097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EFA02990-202B-117A-AAA5-D0CDBCC3825F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EFA02990-202B-117A-AAA5-D0CDBCC3825F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EFA02990-202B-117A-AAA5-D0CDBCC3825F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EFA02990-202B-117A-AAA5-D0CDBCC3825F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																						GlobalSection(MonoDevelopProperties) = preSolution
+																																																		GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

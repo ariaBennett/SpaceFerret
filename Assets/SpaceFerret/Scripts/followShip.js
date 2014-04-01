@@ -1,4 +1,4 @@
-﻿#pragma strict
+#pragma strict
 var ship : GameObject;
 
 var followPositionX : System.Boolean;
@@ -17,6 +17,9 @@ var offsetRotationX : float;
 var offsetRotationY : float;
 var offsetRotationZ : float;
 
+var multiplierRotationX : float = 1;
+var multiplierRotationY : float = 1;
+var multiplierRotationZ : float = 1;
 
 
 
@@ -32,11 +35,18 @@ function Update () {
   
   var eulers = this.transform.rotation.eulerAngles;
   if (followRotationX) {
-    eulers.x = ship.transform.rotation.eulerAngles.x + offsetRotationX;
+    var x : float = (ship.transform.rotation.eulerAngles.x + offsetRotationX);
+    Debug.Log(x.ToString());
+    //x = x * multiplierRotationX;
+    eulers.x = x;
   } if (followRotationY) {
-    eulers.y = ship.transform.rotation.eulerAngles.y + offsetRotationY;
+      var y : float = (ship.transform.rotation.eulerAngles.y + offsetRotationY);
+      //y = y * multiplierRotationY;
+      eulers.y = y;
   } if (followRotationZ) {
-    eulers.z = ship.transform.rotation.eulerAngles.z + offsetRotationZ;
+      var z : float = (ship.transform.rotation.eulerAngles.z + offsetRotationZ);
+      //z = z * multiplierRotationZ;
+      eulers.z = z;
   }
   this.transform.rotation = Quaternion.Euler(eulers);
   

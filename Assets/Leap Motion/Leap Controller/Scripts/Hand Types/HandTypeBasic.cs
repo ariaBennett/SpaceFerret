@@ -68,7 +68,7 @@ public class HandTypeBasic : HandTypeBase
 
     public override void ShowHand()
     {
-        canBeVisible = true;
+        //canBeVisible = true;
         basicHand.gameObject.SetActive(true);
 
         for (int i = 0; i < 5; i++)

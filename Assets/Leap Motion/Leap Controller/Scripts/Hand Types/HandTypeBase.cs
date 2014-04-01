@@ -13,7 +13,7 @@ public class HandTypeBase : MonoBehaviour
 	[HideInInspector]
 	public LeapGameObject activeObj; // activeObj is acted on by states only 
     [HideInInspector]
-    public bool canBeVisible = true;
+    public bool canBeVisible = false;
 	
 	protected virtual void Awake() 
 	{
@@ -126,7 +126,7 @@ public class HandTypeBase : MonoBehaviour
     /// </summary>
     public virtual void ShowHand()
     {
-        canBeVisible = true;
+        canBeVisible = false;
     }
 
 	public virtual void SetActiveObject(LeapGameObject obj)

@@ -50,13 +50,24 @@
      <Compile Include="Assets\SpaceFerret\Scripts\Camera\getObj.js" />
      <Compile Include="Assets\SpaceFerret\Scripts\Movement.js" />
      <Compile Include="Assets\SpaceFerret\Scripts\Target\matchCameraRotation.js" />
+     <Compile Include="Assets\SpaceFerret\Scripts\Target\spaceInner.js" />
      <Compile Include="Assets\SpaceFerret\Scripts\Turning.js" />
      <Compile Include="Assets\SpaceFerret\Scripts\UpdateWithLeap.js" />
+     <Compile Include="Assets\SpaceFerret\Scripts\collision.js" />
      <Compile Include="Assets\SpaceFerret\Scripts\followShip.js" />
      <Compile Include="Assets\SpaceFerret\Scripts\swingWithShip.js" />
+     <None Include="Assets\Photon Unity Networking\Demos\MarcoPolo-Tutorial\marcopolo-readme.txt" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
+     <None Include="Assets\Photon Unity Networking\Demos\DemoBoxes\Resources\eurof_tt.txt" />
+     <None Include="Assets\Plugins\release_history.txt" />
+     <None Include="Assets\Plugins\Photon3Unity3D.xml" />
+     <None Include="Assets\Photon Unity Networking\readme.txt" />
+     <None Include="Assets\Photon Unity Networking\changelog.txt" />
  <Reference Include="Assets\Plugins\LeapCSharp.NET3.5">
  <HintPath>Assets\Plugins\LeapCSharp.NET3.5.dll</HintPath>
+ </Reference>
+ <Reference Include="Assets\Plugins\Photon3Unity3D">
+ <HintPath>Assets\Plugins\Photon3Unity3D.dll</HintPath>
  </Reference>
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
