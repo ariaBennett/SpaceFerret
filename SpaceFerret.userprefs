@@ -1,11 +1,14 @@
 ﻿<Properties>
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SpaceFerret/Scripts/Movement.js">
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/SpaceFerret/Scripts/followShip.js">
     <Files>
-      <File FileName="Assets/SpaceFerret/Scripts/Camera/getObj.js" Line="1" Column="3" />
-      <File FileName="Assets/SpaceFerret/Scripts/Movement.js" Line="6" Column="9" />
+      <File FileName="Assets/SpaceFerret/Scripts/Target/matchCameraRotation.js" Line="1" Column="1" />
+      <File FileName="Assets/SpaceFerret/Scripts/Movement.js" Line="1" Column="1" />
+      <File FileName="Assets/SpaceFerret/Scripts/Camera/controls.js" Line="1" Column="1" />
+      <File FileName="Assets/SpaceFerret/Scripts/Camera/getObj.js" Line="1" Column="1" />
+      <File FileName="Assets/SpaceFerret/Scripts/Turning.js" Line="20" Column="9" />
       <File FileName="Assets/SpaceFerret/Scripts/UpdateWithLeap.js" Line="1" Column="1" />
-      <File FileName="Assets/SpaceFerret/Scripts/Turning.js" Line="1" Column="15" />
+      <File FileName="Assets/SpaceFerret/Scripts/followShip.js" Line="19" Column="1" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

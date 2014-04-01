@@ -46,10 +46,14 @@
 	</Reference>
   </ItemGroup>
   <ItemGroup>
+     <Compile Include="Assets\SpaceFerret\Scripts\Camera\controls.js" />
      <Compile Include="Assets\SpaceFerret\Scripts\Camera\getObj.js" />
      <Compile Include="Assets\SpaceFerret\Scripts\Movement.js" />
+     <Compile Include="Assets\SpaceFerret\Scripts\Target\matchCameraRotation.js" />
      <Compile Include="Assets\SpaceFerret\Scripts\Turning.js" />
      <Compile Include="Assets\SpaceFerret\Scripts\UpdateWithLeap.js" />
+     <Compile Include="Assets\SpaceFerret\Scripts\followShip.js" />
+     <Compile Include="Assets\SpaceFerret\Scripts\swingWithShip.js" />
      <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assets\Plugins\LeapCSharp.NET3.5">
  <HintPath>Assets\Plugins\LeapCSharp.NET3.5.dll</HintPath>

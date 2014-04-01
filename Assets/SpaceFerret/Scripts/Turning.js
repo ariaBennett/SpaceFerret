@@ -32,8 +32,6 @@ function Update () {
       leapRotation.eulerAngles.z
     );
   }
-  
-  Debug.Log(clampedRotation);
 
   this.transform.rotation = Quaternion.RotateTowards(currentRotation, Quaternion.Euler(clampedRotation), step);
 }
