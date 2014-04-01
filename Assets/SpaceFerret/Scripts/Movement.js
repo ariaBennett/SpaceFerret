@@ -14,5 +14,6 @@ function Start () {
 function Update () {
   speed = baseSpeed;
   this.transform.Translate(Vector3.forward * speed * Time.deltaTime);
+  //this.rigidbody.AddForce(this.transform.forward * speed);
 
 }
