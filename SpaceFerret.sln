@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 11.00
 
 Project("{B038FCC4-EFED-56EC-EF13-B093141FEFBE}") = "SpaceFerret", "Assembly-CSharp.csproj", "{CAA4A605-A6E1-8282-7244-387701844097}"
 EndProject
+Project("{B038FCC4-EFED-56EC-EF13-B093141FEFBE}") = "SpaceFerret", "Assembly-UnityScript.unityproj", "{5D5B57C3-8CC9-1C62-593C-189C9E73B148}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,11 +15,15 @@ Global
 		{CAA4A605-A6E1-8282-7244-387701844097}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{CAA4A605-A6E1-8282-7244-387701844097}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{CAA4A605-A6E1-8282-7244-387701844097}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5D5B57C3-8CC9-1C62-593C-189C9E73B148}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5D5B57C3-8CC9-1C62-593C-189C9E73B148}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5D5B57C3-8CC9-1C62-593C-189C9E73B148}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5D5B57C3-8CC9-1C62-593C-189C9E73B148}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-														GlobalSection(MonoDevelopProperties) = preSolution
+																											GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1

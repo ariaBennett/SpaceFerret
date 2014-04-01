@@ -107,6 +107,7 @@
      <Compile Include="Assets\Leap Motion\Scenes Pack\Scripts\Leap Scenes\Weapons\CameraLerp.cs" />
      <Compile Include="Assets\Leap Motion\Scenes Pack\Scripts\Leap Scenes\Weapons\InstantiateObject.cs" />
      <Compile Include="Assets\Leap Motion\Scenes Pack\Scripts\Leap Scenes\Weapons\Projectile.cs" />
+     <None Include="Assets\Standard Assets\Skyboxes\_skybox info.txt" />
  <Reference Include="Assets\Plugins\LeapCSharp.NET3.5">
  <HintPath>Assets\Plugins\LeapCSharp.NET3.5.dll</HintPath>
  </Reference>
