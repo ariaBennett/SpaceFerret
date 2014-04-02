@@ -176,6 +176,7 @@
      <Compile Include="Assets\RainFX\RainCreator.cs" />
      <Compile Include="Assets\RainFX\Resources\Scripts\MouseLook.cs" />
      <Compile Include="Assets\ScreenDrops\_Scripts\ScreenDrops.cs" />
+     <Compile Include="Assets\SpaceFerret\Scripts\Camera\bestCameraLerp.cs" />
      <Compile Include="Assets\Vacuum Free\Fragmentum\Demo Scenes\Aditional Files\Standard Assets\Image Effects (Pro Only)\BlurEffect.cs" />
      <Compile Include="Assets\Vacuum Free\Fragmentum\Demo Scenes\Aditional Files\Standard Assets\Image Effects (Pro Only)\ColorCorrectionEffect.cs" />
      <Compile Include="Assets\Vacuum Free\Fragmentum\Demo Scenes\Aditional Files\Standard Assets\Image Effects (Pro Only)\ContrastStretchEffect.cs" />
