@@ -1,6 +1,5 @@
 ﻿#pragma strict
 
-var leapRight: GameObject;
 
 var cameraMarker: GameObject;
 var cameraMarkerOffsetX: float = 40;
@@ -21,15 +20,20 @@ var wasSpinning: boolean = false;
 
 
 function Update() {
+    var leftHand: GameObject = GameObject.FindWithTag('RightHand') || null;
 
-    // Rotate stuff
+    if (leftHand) {
+        // Rotate stuff
     var currentRotation = this.transform.rotation;
-    var leapRotation = leapRight.transform.rotation;
+    
+    var leftHandRotation = leftHand.transform.rotation;
+    leftHandRotation.SetEulerRotation(-90, -90, 0);
+    Debug.Log(leftHand.transform.rotation);
 
     var clampedRotation: Vector3;
 
-    if (leapRotation.eulerAngles.z > 90 && leapRotation.eulerAngles.z < 270) {
-        if (leapRotation.eulerAngles.z <= 180) {
+    if (leftHandRotation.eulerAngles.z > 90 && leftHandRotation.eulerAngles.z < 270) {
+        if (leftHandRotation.eulerAngles.z <= 180) {
           //if (wasSpinning === false) {
           if (0) {
             wasSpinning = true;
@@ -42,14 +46,14 @@ function Update() {
             
             // this.transform.rotation = Quaternion.Lerp(this.transform.rotation, Quaternion.Euler(0, this.transform.rotation.y, this.transform.rotation.z), curveBoost * Time.deltaTime);
             clampedRotation = new Vector3(
-                leapRotation.eulerAngles.x,
-                leapRotation.eulerAngles.y,
+                leftHandRotation.eulerAngles.x,
+                leftHandRotation.eulerAngles.y,
                 90
             );
         } 
         else {
-            if (leapRotation.eulerAngles.z >= 180) {
-             if (0) {
+            if (leftHandRotation.eulerAngles.z >= 180) {
+            if (0) {
              // if (wasSpinning === false) {
                 wasSpinning = true;
                 cameraMarker.transform.position = new Vector3(-cameraMarkerOffsetX, -cameraMarkerOffsetY, -cameraMarkerOffsetZ);
@@ -58,8 +62,8 @@ function Update() {
                 //Camera.main.transform.RotateAround(this.transform.position, Vector3.left, cameraLookSpeed);
                 //  this.transform.rotation = Quaternion.Lerp(this.transform.rotation, Quaternion.Euler(360, this.transform.rotation.y, this.transform.rotation.z), curveBoost * Time.deltaTime);
                 clampedRotation = new Vector3(
-                    leapRotation.eulerAngles.x,
-                    leapRotation.eulerAngles.y,
+                    leftHandRotation.eulerAngles.x,
+                    leftHandRotation.eulerAngles.y,
                     270
                 );
             }
@@ -71,16 +75,18 @@ function Update() {
         }
        
         clampedRotation = new Vector3(
-            leapRotation.eulerAngles.x,
-            leapRotation.eulerAngles.y,
-            leapRotation.eulerAngles.z
+            leftHandRotation.eulerAngles.x,
+            leftHandRotation.eulerAngles.y,
+            leftHandRotation.eulerAngles.z
         );
     }
+    }
+
         /*
       clampedRotation = new Vector3(
-      leapRotation.eulerAngles.x,
-      leapRotation.eulerAngles.y,
-      leapRotation.eulerAngles.z
+      leftHandRotation.eulerAngles.x,
+      leftHandRotation.eulerAngles.y,
+      leftHandRotation.eulerAngles.z
     );
     */
 

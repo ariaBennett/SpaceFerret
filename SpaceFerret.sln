@@ -7,6 +7,8 @@ Project("{B038FCC4-EFED-56EC-EF13-B093141FEFBE}") = "SpaceFerret", "Assembly-CSh
 EndProject
 Project("{B038FCC4-EFED-56EC-EF13-B093141FEFBE}") = "SpaceFerret", "Assembly-UnityScript.unityproj", "{5D5B57C3-8CC9-1C62-593C-189C9E73B148}"
 EndProject
+Project("{B038FCC4-EFED-56EC-EF13-B093141FEFBE}") = "SpaceFerret", "Assembly-UnityScript-Editor.unityproj", "{E42C4B61-57F9-F4B3-A769-C948189CF075}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,11 +27,15 @@ Global
 		{5D5B57C3-8CC9-1C62-593C-189C9E73B148}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{5D5B57C3-8CC9-1C62-593C-189C9E73B148}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{5D5B57C3-8CC9-1C62-593C-189C9E73B148}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E42C4B61-57F9-F4B3-A769-C948189CF075}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E42C4B61-57F9-F4B3-A769-C948189CF075}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E42C4B61-57F9-F4B3-A769-C948189CF075}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E42C4B61-57F9-F4B3-A769-C948189CF075}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
-																																																																										GlobalSection(MonoDevelopProperties) = preSolution
+																																																																																														GlobalSection(MonoDevelopProperties) = preSolution
 		StartupItem = Assembly-CSharp.csproj
 		Policies = $0
 		$0.TextStylePolicy = $1
